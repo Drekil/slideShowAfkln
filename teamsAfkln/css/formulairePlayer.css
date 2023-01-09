@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+}
+
+body{
+    color: white;
+}
+
+.formulaire{
+    margin: 1em;
+    padding: 1em;
+    background-color: #0D2229;
+    border-radius: 5px;
+}

@@ -1,0 +1,76 @@
+.transparency
+{
+    background: rgba(0, 0, 0, .8);
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+
+/* retire le style des liens */
+a
+{
+    color: inherit; /* retire la couleur bleu des liens */
+    text-decoration: inherit; /* pas de soulignement */
+}
+
+@font-face
+{
+  font-family: azonix;
+  src: url(../font/azonix.otf);
+}
+
+.mycss_footer_background
+{
+    padding-bottom: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #061013;
+}
+
+.mycss_footer_white_text
+{
+    color: #FDF1F1;
+    font-family: azonix;
+}
+
+.mycss_footer_dark_blue_text
+{
+    /*width: 25em;*/
+    color: #256073;
+    font-family: arial;
+    
+}
+
+.mycss_footer_dark_blue_text_hover:hover
+{
+    color: white;
+}
+
+.mycss_footer_padding
+{
+    padding: 1em;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mycss_footer_div_padding
+{
+    padding-left: 1em;
+}
+
+.mycss_footer_section_texte
+{
+    line-height: 1em;
+}
+
+.mycss_footer_img_socials
+{
+    width: 3em;
+    padding-right: 1em;
+}
+
+/* pour griser les icones quand la souris est dessus */
+.mycss_footer_img_socials:hover
+{
+    filter: brightness(.6);
+}
